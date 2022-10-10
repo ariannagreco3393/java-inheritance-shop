@@ -6,7 +6,7 @@ public class Televisori extends Prodotto {
 	private boolean isSmart;
 	
 	
-	public Televisori(int codice, String nome, String marca, double prezzo, double iva) {
+	public Televisori(int codice, String nome, String marca, double prezzo, double iva, int pollici, boolean isSmart ) {
 		super(codice, nome, marca, prezzo, iva);
 		this.pollici = pollici;
 		this.isSmart = isSmart;
